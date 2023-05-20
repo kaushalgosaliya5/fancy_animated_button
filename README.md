@@ -48,7 +48,7 @@ class FancyAnimatedButtonScreen extends StatelessWidget {
 <table>
 <tr>
 <td>
-<img  src="https://drive.google.com/file/d/1KdJ7rtQtsB2aTIilYaYaB_02XPNR3BvU/view?usp=sharing"  alt="">
+<img  src="https://drive.google.com/file/d/1KdJ7rtQtsB2aTIilYaYaB_02XPNR3BvU/view"  alt="">
 </td>
 </tr>
 </table>
