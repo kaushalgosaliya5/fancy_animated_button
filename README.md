@@ -13,7 +13,7 @@ and the Flutter guide for
 
 # Fancy Animated Button
 
-Fancy Animated Button package lets you add a beautiful animated button container to your Flutter app.
+Fancy Animated Button package lets you add a beautiful animated button to your Flutter app.
 
 ## Installation
 
@@ -55,4 +55,4 @@ class FancyAnimatedButtonScreen extends StatelessWidget {
 
 ## Next Goals
 
-- [x] Add onTap for functions.
+- [x] Add multiple animation in button.
