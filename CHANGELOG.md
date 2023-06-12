@@ -13,3 +13,6 @@ Added the container files with modifiable title, subtitle, height, width and mor
 
 Update version and change description
  
+## 0.0.3
+
+Update description and add example

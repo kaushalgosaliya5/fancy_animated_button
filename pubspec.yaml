@@ -1,6 +1,6 @@
 name: fancy_animated_button
-description: Fancy Animation Button
-version: 0.0.2
+description: Fancy Animated Button package lets you add a different type of beautiful animated button to your Flutter app.
+version: 0.0.3
 homepage: https://github.com/kaushalgosaliya5/fancy_animated_button
 
 environment:
