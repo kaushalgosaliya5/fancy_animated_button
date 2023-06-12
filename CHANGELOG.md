@@ -16,3 +16,7 @@ Update version and change description
 ## 0.0.3
 
 Update description and add example
+
+## 0.0.4
+
+Update documentation
