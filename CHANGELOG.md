@@ -20,3 +20,7 @@ Update description and add example
 ## 0.0.4
 
 Update documentation
+
+## 0.0.5
+
+Update api documentation

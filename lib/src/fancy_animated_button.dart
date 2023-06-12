@@ -2,6 +2,12 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+// Fancy Animation Button
+// Field [String? title] add text title
+// Field [VoidCallback onClick] perform event on button click
+// Field [Color? textColor] display text color in button
+// Field [bool? isAnimated] animation display bool variable true or false
+// Field [int? animationTimerMS] add animation timer
 class FancyAnimatedButton extends StatefulWidget {
   final String? title;
   final VoidCallback onClick;
