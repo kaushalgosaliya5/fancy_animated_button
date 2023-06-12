@@ -53,6 +53,19 @@ class FancyAnimatedButtonScreen extends StatelessWidget {
 </tr>
 </table>
 
+## Parameters
+
+### required
+
+`onClick` Once user click on button some action perform<br/>
+
+### optional
+
+`title` set title text of button<br/> 
+`textColor` set text color of animation text in button<br/> 
+`isAnimated` animation display or not bydefault true<br/>
+`animationTimerMS` set timer of animation duration<br/>
+
 ## Next Goals
 
 - [x] Add multiple animation in button.
