@@ -30,9 +30,9 @@ class FancyAnimatedButton extends StatefulWidget {
 }
 
 class _FancyAnimatedButtonState extends State<FancyAnimatedButton> {
-  /// weather display animation or not default true
+  // weather display animation or not default true
   bool _show = true;
-  /// timer handle display text specific interval
+  // timer handle display text specific interval
   Timer? _timer;
 
   @override

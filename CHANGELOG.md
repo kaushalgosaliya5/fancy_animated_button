@@ -52,3 +52,7 @@ Update api documentation
 ## 0.0.12
 
 Update api documentation
+
+## 0.0.13
+
+Update api documentation
