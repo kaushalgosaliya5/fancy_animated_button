@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="generator" content="made with love by dartdoc 6.2.2">
+  <meta name="description" content="fancy_animated_button API docs, for the Dart programming language.">
+  <title>fancy_animated_button - Dart API docs</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="static-assets/github.css?v1">
+  <link rel="stylesheet" href="static-assets/styles.css?v1">
+  <link rel="icon" href="static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="https://github.com/kaudashalgosaliya5/fancy_animated_button">fancy_animated_button package</a></li>
+  </ol>
+  <div class="self-name">fancy_animated_button</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        brightness_4
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        brightness_5
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+  <div id="dartdoc-main-content" class="main-content">
+      
+<section class="desc markdown">
+  <!--
+This README describes the package. If you publish this package to pub.dev,
+this README's contents appear on the landing page for your package.
+
+For information about how to write a good package README, see the guide for
+[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+
+For general information about developing packages, see the Dart guide for
+[creating packages](https://dart.dev/guides/libraries/create-library-packages)
+and the Flutter guide for
+[developing packages and plugins](https://flutter.dev/developing-packages).
+-->
+<h1 id="fancy-animated-button">Fancy Animated Button</h1>
+<p>Fancy Animated Button package lets you add a beautiful animated button to your Flutter app.</p>
+<h2 id="installation">Installation</h2>
+<ol>
+<li>Add the latest version of package to your pubspec.yaml (and run<code>dart pub get</code>):</li>
+</ol>
+<pre class="language-yaml"><code class="language-yaml">dependencies:
+  fancy_animated_button: ^0.0.6
+</code></pre>
+<ol start="2">
+<li>Import the package and use it in your Flutter App.</li>
+</ol>
+<pre class="language-dart"><code class="language-dart">import 'package:fancy_animated_button/fancy_animated_button.dart';
+</code></pre>
+<pre class="language-dart"><code class="language-dart">class FancyAnimatedButtonScreen extends StatelessWidget {
+  const FancyAnimatedButtonScreen({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text('Fancy Animated Button Screen'),
+          backgroundColor: Colors.cyan,
+        ),
+        body: FancyAnimatedButton(
+          onClick: () {},
+        ));
+  }
+}
+</code></pre>
+<table>
+<tbody><tr>
+<td>
+<img src="https://drive.google.com/file/d/1KdJ7rtQtsB2aTIilYaYaB_02XPNR3BvU/edit" alt="">
+</td>
+</tr>
+</tbody></table>
+<h2 id="parameters">Parameters</h2>
+<h3 id="required">required</h3>
+<p><code>onClick</code> Once user click on button some action perform<br></p>
+<h3 id="optional">optional</h3>
+<p><code>title</code> set title text of button<br>
+<code>textColor</code> set text color of animation text in button<br>
+<code>isAnimated</code> animation display or not bydefault true<br>
+<code>animationTimerMS</code> set timer of animation duration<br></p>
+<h2 id="next-goals">Next Goals</h2>
+<ul>
+<li><code>x</code> Add multiple animation in button.</li>
+</ul>
+</section>
+
+
+      <section class="summary">
+          <h2>Libraries</h2>
+        <dl>
+          <dt id="fancy_animated_button">
+  <span class="name"><a href="fancy_animated_button/fancy_animated_button-library.html">fancy_animated_button</a></span> 
+
+</dt>
+<dd>
+</dd>
+
+        </dl>
+      </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="https://github.com/kaudashalgosaliya5/fancy_animated_button">fancy_animated_button package</a></li>
+</ol>
+
+
+    <h5 class="hidden-xs"><span class="package-name">fancy_animated_button</span> <span class="package-kind">package</span></h5>
+    <ol>
+      <li class="section-title">Libraries</li>
+      <li><a href="fancy_animated_button/fancy_animated_button-library.html">fancy_animated_button</a></li>
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div>
+
+</main>
+
+<footer>
+  <span class="no-break">
+    fancy_animated_button
+      0.0.6
+  </span>
+
+  
+</footer>
+
+
+
+<script src="static-assets/highlight.pack.js?v1"></script>
+<script src="static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+
