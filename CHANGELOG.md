@@ -36,3 +36,7 @@ Update api documentation, add dartdoc package
 ## 0.0.8
 
 Update api documentation
+
+## 0.0.9
+
+Update api documentation

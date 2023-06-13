@@ -20,7 +20,7 @@ Fancy Animated Button package lets you add a beautiful animated button to your F
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  fancy_animated_button: ^0.0.8
+  fancy_animated_button: ^0.0.9
 ```
 2. Import the package and use it in your Flutter App.
 ```dart

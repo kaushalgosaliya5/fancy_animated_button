@@ -2,17 +2,18 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-// Fancy Animation Button
-// Field [String? title] add text title
-// Field [VoidCallback onClick] perform event on button click
-// Field [Color? textColor] display text color in button
-// Field [bool? isAnimated] animation display bool variable true or false
-// Field [int? animationTimerMS] add animation timer
+// Fancy Animation Button display different type of animation and add specific timer of animation
 class FancyAnimatedButton extends StatefulWidget {
+
+  ///  add message text in button
   final String? title;
+  // perform event on this method
   final VoidCallback onClick;
+  /// change text color of button
   final Color? textColor;
+  /// weather button display animation or not
   final bool? isAnimated;
+  /// set timer of specific animation
   final int? animationTimerMS;
 
   const FancyAnimatedButton(
@@ -29,9 +30,9 @@ class FancyAnimatedButton extends StatefulWidget {
 }
 
 class _FancyAnimatedButtonState extends State<FancyAnimatedButton> {
- // display text blink mode
+  /// weather display animation or not default true
   bool _show = true;
-  // timer handle display text specific interval
+  /// timer handle display text specific interval
   Timer? _timer;
 
   @override
@@ -56,6 +57,7 @@ class _FancyAnimatedButtonState extends State<FancyAnimatedButton> {
 
   @override
   Widget build(BuildContext context) {
+    /// Return animation button to ui with specific attribute
     return ElevatedButton(
         onPressed: () {
          /// click event perform and call back to return
