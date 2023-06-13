@@ -29,7 +29,9 @@ class FancyAnimatedButton extends StatefulWidget {
 }
 
 class _FancyAnimatedButtonState extends State<FancyAnimatedButton> {
+ // display text blink mode
   bool _show = true;
+  // timer handle display text specific interval
   Timer? _timer;
 
   @override
@@ -47,6 +49,7 @@ class _FancyAnimatedButtonState extends State<FancyAnimatedButton> {
 
   @override
   void dispose() {
+   /// timer object clear in memory
     _timer?.cancel();
     super.dispose();
   }
@@ -55,6 +58,7 @@ class _FancyAnimatedButtonState extends State<FancyAnimatedButton> {
   Widget build(BuildContext context) {
     return ElevatedButton(
         onPressed: () {
+         /// click event perform and call back to return
           widget.onClick.call();
         },
         child: Text(widget.title ?? "Fancy Animation Button",

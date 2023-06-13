@@ -24,3 +24,7 @@ Update documentation
 ## 0.0.5
 
 Update api documentation
+
+## 0.0.6
+
+Update api documentation and add more comment
