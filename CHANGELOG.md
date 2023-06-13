@@ -40,3 +40,7 @@ Update api documentation
 ## 0.0.9
 
 Update api documentation
+
+## 0.0.10
+
+Update api documentation
