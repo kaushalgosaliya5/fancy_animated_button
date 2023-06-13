@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-// Fancy Animation Button display different type of animation and add specific timer of animation
+/// Fancy Animation Button display different type of animation and add specific timer of animation
 class FancyAnimatedButton extends StatefulWidget {
 
   ///  add message text in button
