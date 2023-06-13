@@ -30,9 +30,9 @@ class FancyAnimatedButton extends StatefulWidget {
 }
 
 class _FancyAnimatedButtonState extends State<FancyAnimatedButton> {
-  // weather display animation or not default true
+  /// weather display animation or not default true
   bool _show = true;
-  // timer handle display text specific interval
+  /// timer handle display text specific interval
   Timer? _timer;
 
   @override
@@ -57,10 +57,10 @@ class _FancyAnimatedButtonState extends State<FancyAnimatedButton> {
 
   @override
   Widget build(BuildContext context) {
-    // Return animation button to ui with specific attribute
+    /// Return animation button to ui with specific attribute
     return ElevatedButton(
         onPressed: () {
-         // click event perform and call back to return
+         /// click event perform and call back to return
           widget.onClick.call();
         },
         child: Text(widget.title ?? "Fancy Animation Button",
